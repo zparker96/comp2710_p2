@@ -1,0 +1,456 @@
+Test 1: Login Process 
+	Case 1 output: login 
+	
+		        ===========================================================
+		                Welcome to the Auburn Branch of Tiger Bank!
+		        ===========================================================
+		1) Login
+		2) Quit
+		        Please choose an option: 1
+		
+		        ===========================================================
+		                Login to Access the Teller Terminal System
+		        ===========================================================
+		Username:
+	
+	Case 1.1 output: valid login information
+	
+		        ===========================================================
+		                Login to Access the Teller Terminal System
+		        ===========================================================
+		Username: admin
+		Password: 0000
+		
+		        ===========================================================
+		               Teller Terminal System - System Administration
+		        ===========================================================
+		1) Client and Account Management
+		2) Add a branch staff member
+		3) Delete a branch staff member
+		4) Display branch staff
+		5) Change password
+		6) Save and logout
+		        Please choose an option:
+		
+	Case 1.2 output: invalid login information 
+	
+		        ===========================================================
+		                Login to Access the Teller Terminal System
+		        ===========================================================
+		Username: admin
+		Password: 1111
+		The username or password is incorrect. Try again!
+		
+		Username:
+	
+	Case 2 output: quit
+			===========================================================
+			                Welcome to the Auburn Branch of Tiger Bank!
+			===========================================================
+		1) Login
+		2) Quit
+		        Please choose an option: 2
+		
+		Are you sure you want to quit? (Y/N): y
+		
+		Thank you for using the Teller Terminal System!
+		Exiting program...
+		
+	Case 3 output: invalid input 
+	
+		        ===========================================================
+		                Welcome to the Auburn Branch of Tiger Bank!
+		        ===========================================================
+		1) Login
+		2) Quit
+		        Please choose an option: 3
+		Your input was invalid. Please enter a valid input (1 or 2):
+		
+-------------------------------------------------------
+	
+Test 2: System Administration Main Menu 
+	Case 1 output: client and account management 
+	
+		        ===========================================================
+		               Teller Terminal System - System Administration
+		        ===========================================================
+		1) Client and Account Management
+		2) Add a branch staff member
+		3) Delete a branch staff member
+		4) Display branch staff
+		5) Change password
+		6) Save and logout
+		        Please choose an option: 1
+		
+		        ===========================================================
+		           Teller Terminal System - Client and Account Management
+		        ===========================================================
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option:
+	
+	Case 2 output: add branch staff
+	
+		        ===========================================================
+		               Teller Terminal System - System Administration
+		        ===========================================================
+		1) Client and Account Management
+		2) Add a branch staff member
+		3) Delete a branch staff member
+		4) Display branch staff
+		5) Change password
+		6) Save and logout
+		        Please choose an option: 2
+		
+		Username:
+	
+	Case 3 output: delete branch staff
+	
+		        ===========================================================
+		               Teller Terminal System - System Administration
+		        ===========================================================
+		1) Client and Account Management
+		2) Add a branch staff member
+		3) Delete a branch staff member
+		4) Display branch staff
+		5) Change password
+		6) Save and logout
+		        Please choose an option: 3
+		
+		Please enter username of user to be deleted:
+		
+	Case 4 output: display branch staff
+	
+		        ===========================================================
+		               Teller Terminal System - System Administration
+		        ===========================================================
+		1) Client and Account Management
+		2) Add a branch staff member
+		3) Delete a branch staff member
+		4) Display branch staff
+		5) Change password
+		6) Save and logout
+		        Please choose an option: 4
+		
+		There are 2 users in the system.
+		        1) Username: admin              Role: System Administrator
+		        2) Username: zbp0003            Role: Branch Staff
+		
+		1) Client and Account Management
+		2) Add a branch staff member
+		3) Delete a branch staff member
+		4) Display branch staff
+		5) Change password
+		6) Save and logout
+		        Please choose an option:
+	
+	Case 5 output: change password 
+	
+		        ===========================================================
+		               Teller Terminal System - System Administration
+		        ===========================================================
+		1) Client and Account Management
+		2) Add a branch staff member
+		3) Delete a branch staff member
+		4) Display branch staff
+		5) Change password
+		6) Save and logout
+		        Please choose an option: 5
+		New password (use any character except spaces): newpassword
+		Password was changed!
+		
+		1) Client and Account Management
+		2) Add a branch staff member
+		3) Delete a branch staff member
+		4) Display branch staff
+		5) Change password
+		6) Save and logout
+		        Please choose an option:
+		
+	Case 6 output: exit 
+	
+		        ===========================================================
+		               Teller Terminal System - System Administration
+		        ===========================================================
+		1) Client and Account Management
+		2) Add a branch staff member
+		3) Delete a branch staff member
+		4) Display branch staff
+		5) Change password
+		6) Save and logout
+		        Please choose an option: 6
+		Are you sure you want to logout? (Y/N): y
+		User information has been saved in the staff file.
+		Logging off...
+		
+		        ===========================================================
+		                Welcome to the Auburn Branch of Tiger Bank!
+		        ===========================================================
+		1) Login
+		2) Quit
+		        Please choose an option:
+	
+	Case 7 output: invalid input 
+	
+		        ===========================================================
+		               Teller Terminal System - System Administration
+		        ===========================================================
+		1) Client and Account Management
+		2) Add a branch staff member
+		3) Delete a branch staff member
+		4) Display branch staff
+		5) Change password
+		6) Save and logout
+		        Please choose an option: 7
+		Your input was invalid. Please enter a valid input (1, 2, 3, 4, 5, or 6):
+		
+-----------------------------------------
+	
+Test 3: Branch Staff Main Menu
+	Case 1 output: client and account management
+	
+		        ===========================================================
+		                   Teller Terminal System - Branch Staff
+		        ===========================================================
+		1) Client and Account Management
+		2) Change Password
+		3) Logout
+		        Please choose an option: 1
+		
+		        ===========================================================
+		           Teller Terminal System - Client and Account Management
+		        ===========================================================
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option:
+	
+	Case 2 output: change password
+	
+		        ===========================================================
+		                   Teller Terminal System - Branch Staff
+		        ===========================================================
+		1) Client and Account Management
+		2) Change Password
+		3) Save and logout
+		        Please choose an option: 2
+		New password (use any character except spaces): newpassword
+		Password was changed!
+		
+		1) Client and Account Management
+		2) Change Password
+		3) Save and logout
+		        Please choose an option:
+		
+	Case 3 output: quit 
+	
+		        ===========================================================
+		                   Teller Terminal System - Branch Staff
+		        ===========================================================
+		1) Client and Account Management
+		2) Change Password
+		3) Save and logout
+		        Please choose an option: 3
+		Are you sure you want to logout? (Y/N): y
+		Logging off...
+		
+		        ===========================================================
+		                Welcome to the Auburn Branch of Tiger Bank!
+		        ===========================================================
+		1) Login
+		2) Quit
+		        Please choose an option:
+	
+	Case 4 output: invalid input
+	
+		        ===========================================================
+		                   Teller Terminal System - Branch Staff
+		        ===========================================================
+		1) Client and Account Management
+		2) Change Password
+		3) Save and logout
+		        Please choose an option: 4
+		Your input was invalid. Please enter a valid input (1, 2 or 3):
+	
+-------------------------------------------------------------
+	
+Test 4: Client and Account Management Menu
+	Case 1: add client
+	
+		        ===========================================================
+		           Teller Terminal System - Client and Account Management
+		        ===========================================================
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option: 1
+		
+		A new client will be added...
+		Client name: Zachary Parker
+		Address: 300 E Longleaf Dr
+		Social security number: 111-11-1111
+		Employer: Auburn
+		Annual income: 10000
+		A new client was added!
+		
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option:
+	
+	Case 2: add account
+	
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option: 2
+		
+		Choose a client: Zachary Parker
+		A new account will be created for Zachary Parker...
+		Account number: 123456
+		Account type: Savings
+		Balance: 100
+		A new account was created for Zachary Parker!
+	
+	Case 3: edit client information
+	
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option: 3
+		
+		Choose a client: Zachary Parker
+		
+		Displaying Zachary Parker's Information:
+		        Address: 300 E Longleaf Dr
+		        Social security number: 111-11-1111
+		        Employer: Auburn
+		        Annual income: 10000
+		
+		Client Zachary Parker's information will be updated...
+		1) Confirm
+		2) Cancel
+		        Please choose an option: 1
+		
+		Please fill out Zachary Parker's updatd information...
+		Address: 300 New Address Dr
+		Social security number: 222-22-2222
+		Employer: University of Alabama
+		Annual income: 500000
+		Client Zachary Parker's information was updated!
+		
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option:
+	
+	Case 4: manage account 
+	
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option: 4
+		
+		Enter the number of the account to be managed: 123456
+		
+		Now managing account 123456 for Zachary Parker:
+		1) Deposit
+		2) Withdraw
+		3) Cancel
+		        Please choose an option: 1
+		Deposit amount: 5
+		Balance of account 123456 is: 105
+		
+		1) Deposit
+		2) Withdraw
+		3) Cancel
+		        Please choose an option: 3
+		Returning to menu...
+		
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option:
+	
+	Case 5: save client and account information
+	
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option: 5
+		
+		Client information has been saved in the client-info file.
+		Account information has been saved in the account-info file.
+		
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option:
+		
+	
+	Case 6: Exit 
+	
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option: 6
+		
+		Are you sure you want to go back to the branch staff options menu? (Y/N): y
+		
+		        ===========================================================
+		                   Teller Terminal System - Branch Staff
+		        ===========================================================
+		1) Client and Account Management
+		2) Change Password
+		3) Save and logout
+		        Please choose an option:
+	
+	Case 7: invalid input 
+	
+		1) Add a client
+		2) Add an account
+		3) Edit client information
+		4) Manage an account
+		5) Save client and account information
+		6) Exit
+		        Please choose an option: 7
+		Your input was invalid. Please enter a valid input (1, 2, 3, 4, 5, or 6):
+		
+	
